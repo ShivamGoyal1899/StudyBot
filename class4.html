@@ -64,14 +64,16 @@
 						</div>
 						<div class="inner">
 							<h2>Downloadable eBooks</h2>
-							<table>
+						</div>
+						<div class="inner" style="overflow-x:auto;">
+							<table id="myTable1">
 								<thead>
 									<tr>
-										<th>Subject</th>
-										<th>eBook Name</th>
-										<th>Language</th>
-										<th>eBook Publisher</th>
-										<th>Download Links</th>
+										<th onclick="sortTable(0)">Subject <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable(1)">eBook Name <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable(2)">Language <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable(3)">eBook Publisher <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable(4)">Download Links <i class="fa fa-sort"></i></th>
 									</tr>
 								</thead>
 								<tbody>
@@ -190,6 +192,6 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/sort.js"></script>
 	</body>
 </html>
