@@ -65,13 +65,15 @@
 						</div>
 						<div class="inner">
 							<h2>Central Board of Secondary Education</h2>
-							<table>
+						</div>
+						<div class="inner" style="overflow-x:auto;">
+							<table id="myTable1">
 								<thead>
 									<tr>
-										<th>Exam Name</th>
-										<th>Academic Year</th>
-										<th>Result Date</th>
-										<th>Result Links</th>
+										<th onclick="sortTable(0)">Exam Name <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable(1)">Academic Year <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable(2)">Result Date <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable(3)">Result Links <i class="fa fa-sort"></i></th>
 									</tr>
 								</thead>
 								<tbody>
@@ -151,15 +153,20 @@
 									<tr>
 									</tr>
 								</tfoot>
-							</table><br />
+							</table>
+						</div>
+						<br />
+						<div class="inner">
 							<h2>Council for the Indian School Certificate Examination</h2>
-							<table>
+						</div>
+						<div class="inner" style="overflow-x:auto;">
+							<table id="myTable2">
 								<thead>
 									<tr>
-										<th>Exam Name</th>
-										<th>Academic Year</th>
-										<th>Result Date</th>
-										<th>Result Links</th>
+										<th onclick="sortTable2(0)">Exam Name <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable2(1)">Academic Year <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable2(2)">Result Date <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable2(3)">Result Links <i class="fa fa-sort"></i></th>
 									</tr>
 								</thead>
 								<tbody>
@@ -180,15 +187,20 @@
 									<tr>
 									</tr>
 								</tfoot>
-							</table><br />
+							</table>
+						</div>
+						<br />
+						<div class="inner">
 							<h2>Joint Entrance Examination</h2>
-							<table>
+						</div>
+						<div class="inner" style="overflow-x:auto;">
+							<table id="myTable3">
 								<thead>
 									<tr>
-										<th>Exam Name</th>
-										<th>Academic Year</th>
-										<th>Result Date</th>
-										<th>Result Links</th>
+										<th onclick="sortTable3(0)">Exam Name <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable3(1)">Academic Year <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable3(2)">Result Date <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable3(3)">Result Links <i class="fa fa-sort"></i></th>
 									</tr>
 								</thead>
 								<tbody>
@@ -245,15 +257,20 @@
 									<tr>
 									</tr>
 								</tfoot>
-							</table><br />
-								<h2>National Eligibility cum Entrance Test</h2>
-							<table>
+							</table>
+						</div>
+						<br />
+						<div class="inner">
+							<h2>National Eligibility cum Entrance Test</h2>
+						</div>
+						<div class="inner" style="overflow-x:auto">
+							<table id="myTable4">
 								<thead>
 									<tr>
-										<th>Exam Name</th>
-										<th>Academic Year</th>
-										<th>Result Date</th>
-										<th>Result Links</th>
+										<th onclick="sortTable4(0)">Exam Name <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable4(1)">Academic Year <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable4(2)">Result Date <i class="fa fa-sort"></i></th>
+										<th onclick="sortTable4(3)">Result Links <i class="fa fa-sort"></i></th>
 									</tr>
 								</thead>
 								<tbody>
@@ -332,7 +349,8 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="assets/js/sort.js"></script>
+			<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
 
 	</body>
 </html>
